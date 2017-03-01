@@ -19,6 +19,7 @@ public class ConsumerAdapter {
 	public void sendToMongo(String jsonString) {
 		logger.info("Send to mongodb is called");
 		MongoClient mongoclient = new MongoClient();
+		logger.info("The string is -");
 		/*
 		 * This will create a db Object - And a database in the mongodb for
 		 * Vendors 
