@@ -1,4 +1,4 @@
-package test.org.vensorcollections.jms.listener;
+package test.org.vendorcollections.jms.listener;
 
 import static org.junit.Assert.*;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
