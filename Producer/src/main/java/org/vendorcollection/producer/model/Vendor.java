@@ -1,5 +1,8 @@
 package org.vendorcollection.producer.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Vendor {
 private String vendorname;
 private String firstName;

@@ -39,4 +39,5 @@
 	</bean>
 	
 	<mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
+	<mvc:resources location="/images/" mapping="/images/**"></mvc:resources>
 </beans>

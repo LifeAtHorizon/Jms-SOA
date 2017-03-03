@@ -12,10 +12,19 @@
 		<link rel="stylesheet" href="<c:url value='css/style.css'></c:url>"/>
 	</head> 
 	<body>
+	<div>
+	<img alt="vendor entry" src="<c:url value='images/consulting.jpg'></c:url>">
+	</div>
+	
 		<div><h2>Vendor Entry</h2></div>
 		
 		<div id="form">
 		<form:form modelAttribute="vendor" action="vendor">
+		<div class="message">
+		<c:if test="${!empty message}">
+		<c:out value="${message}"></c:out>
+		</c:if>
+		</div>
 		
 		<fieldset>
 		<legend>Vendor Information</legend>

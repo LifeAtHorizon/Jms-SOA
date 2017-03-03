@@ -49,3 +49,11 @@ div#form{
 	widows: 60px;
 	
 }
+
+
+div.message{
+	color: green;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 10pt;
+}
